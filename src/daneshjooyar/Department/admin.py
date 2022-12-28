@@ -1,8 +1,9 @@
 from django.contrib import admin
-from Department.models import Department, Course, Chart
+from Department.models import Department, Course, Chart, Term
 
 # Register your models here.
 admin.site.register(Department)
+admin.site.register(Term)
 
 
 @admin.register(Course)
