@@ -1,1 +1,2 @@
-from .rules import rule
+from .rules import Rule
+from .resualt import Result
